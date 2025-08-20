@@ -1,0 +1,541 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zenny Watches</title>
+
+  <?php include 'link.php' ?>
+  
+</head>
+<body>
+    
+    <?php include 'nav.php' ?>
+ 
+
+  <!-- Hero Section -->
+  <section class="home_hero">
+    <div>
+      <h1>Citizen Promaster<br>Marine Collection</h1>
+      <p>The collection features a variety of designs, including models with depth meters, chronographs, and bold, easy-to-read dials.</p>
+      <a href="#" class="btn">Shop Now</a>
+    </div>
+  </section>
+
+
+
+   <section class="category_section">
+    <h2>Shop By Categories</h2>
+    <div class="category_grid">
+
+      <div class="category_card">
+        <img src="./images/h7-cat1.jpg" alt="Men's Watches">
+        <p>Men's Watches</p>
+      </div>
+
+      <div class="category_card">
+        <img src="./images/h7-cat2.jpg" alt="Women's Watches">
+        <p>Women's Watches</p>
+      </div>
+
+      <div class="category_card">
+        <img src="./images/h7-cat3.jpg" alt="Pre-Owned Watches">
+        <p>Pre-Owned Watches</p>
+      </div>
+
+      <div class="category_card">
+        <img src="./images/h7-cat4.jpg" alt="Pocket Watches">
+        <p>Pocket Watches</p>
+      </div>
+
+      <div class="category_card">
+        <img src="./images/h7-cat1.jpg" alt="Diver Watches">
+        <p>Diver Watches</p>
+      </div>
+
+      <div class="category_card">
+        <img src="./images/h7-cat4 (1).jpg" alt="Luxury Watches">
+        <p>Luxury Watches</p>
+      </div>
+
+
+      
+      <div class="category_card">
+        <img src="./images/h7-cat3.jpg" alt="Pre-Owned Watches">
+        <p>Pre-Owned Watches</p>
+      </div>
+
+      <div class="category_card">
+        <img src="./images/h7-cat4.jpg" alt="Pocket Watches">
+        <p>Pocket Watches</p>
+      </div>
+
+    </div>
+  </section>
+
+
+
+
+  <section class="hero_section">
+    <!-- YouTube Video -->
+    <div class="hero_video">
+      <iframe 
+        src="https://www.youtube.com/embed/I3qP8pWDL08?autoplay=1&mute=1&controls=0&rel=0&playsinline=1&cc_load_policy=0&enablejsapi=1&origin=https%3A%2F%2Fzenny.bzotech.com&widgetid=1&forigin=https%3A%2F%2Fzenny.bzotech.com%2Fhome-7%2F&aoriginsup=1&gporigin=https%3A%2F%2Fzenny.bzotech.com%2F&vf=1" 
+        frameborder="0" 
+        allow="autoplay; fullscreen">
+      </iframe>
+    </div>
+
+    <!-- Overlay -->
+    <div class="hero_overlay"></div>
+
+    <!-- Text Content -->
+    <div class="hero_content">
+      <h4>NEW ARRIVAL</h4>
+      <h1>Tag Heuer Carrera<br>Calibre Day-Date Chronograph</h1>
+      <a href="#" class="hero_btn">Shop Now</a>
+    </div>
+  </section>
+
+  
+
+   <section class="new_collection_section">
+    <h2>New Arrival Collection</h2>
+
+    <div class="new_collection_grid">
+
+      <!-- Card 1 -->
+      <div class="new_collection_card">
+        <div class="new_collection_img">
+          <img src="./images/watch1.png" alt="Vintage Gold Wristwatch">
+          <div class="new_collection_overlay">
+            <div class="new_collection_icon">♡</div>
+            <div class="new_collection_icon">👁</div>
+            <div class="new_collection_icon">🛒</div>
+          </div>
+          <span class="new_collection_badge">-10%</span>
+        </div>
+        <div class="new_collection_info">
+          <h3>Vintage Gold Wristwatch</h3>
+          <p class="new_collection_price"><del>$220.00</del> $199.00</p>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="new_collection_card">
+        <div class="new_collection_img">
+          <img src="./images/watch2.png" alt="Heritage Automatic Watch">
+          <div class="new_collection_overlay">
+            <div class="new_collection_icon">♡</div>
+            <div class="new_collection_icon">👁</div>
+            <div class="new_collection_icon">🛒</div>
+          </div>
+        </div>
+        <div class="new_collection_info">
+          <h3>Heritage Automatic Watch</h3>
+          <p class="new_collection_price">$86.00</p>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="new_collection_card">
+        <div class="new_collection_img">
+          <img src="./images/watch3.png" alt="Patek Philippe Nautilus">
+          <div class="new_collection_overlay">
+            <div class="new_collection_icon">♡</div>
+            <div class="new_collection_icon">👁</div>
+            <div class="new_collection_icon">🛒</div>
+          </div>
+        </div>
+        <div class="new_collection_info">
+          <h3>Patek Philippe Nautilus</h3>
+          <p class="new_collection_price">$75.00</p>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="new_collection_card">
+        <div class="new_collection_img">
+          <img src="./images/watch5.png" alt="Audemars Piguet Royal">
+          <div class="new_collection_overlay">
+            <div class="new_collection_icon">♡</div>
+            <div class="new_collection_icon">👁</div>
+            <div class="new_collection_icon">🛒</div>
+          </div>
+        </div>
+        <div class="new_collection_info">
+          <h3>Audemars Piguet Royal</h3>
+          <p class="new_collection_price">$89.00</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+
+  <section class="breadcrum_section">
+    <div class="breadcrum_container">
+      <div class="breadcrum_item">
+        <h2>25K+</h2>
+        <p>Satisfied Clients</p>
+      </div>
+      <div class="breadcrum_item">
+        <h2>36K+</h2>
+        <p>Products Sold</p>
+      </div>
+      <div class="breadcrum_item">
+        <h2>15+</h2>
+        <p>Years Experience</p>
+      </div>
+      <div class="breadcrum_item">
+        <h2>100+</h2>
+        <p>Awards Winning</p>
+      </div>
+    </div>
+  </section>
+
+
+
+     <section class="new_collection_section">
+    <h2>Most Polular Models</h2>
+
+    <div class="new_collection_grid">
+
+
+          <!-- Card 2 -->
+      <div class="new_collection_card">
+        <div class="new_collection_img">
+          <img src="./images/watch2.png" alt="Heritage Automatic Watch">
+          <div class="new_collection_overlay">
+            <div class="new_collection_icon">♡</div>
+            <div class="new_collection_icon">👁</div>
+            <div class="new_collection_icon">🛒</div>
+          </div>
+        </div>
+        <div class="new_collection_info">
+          <h3>Heritage Automatic Watch</h3>
+          <p class="new_collection_price">$86.00</p>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="new_collection_card">
+        <div class="new_collection_img">
+          <img src="./images/watch3.png" alt="Patek Philippe Nautilus">
+          <div class="new_collection_overlay">
+            <div class="new_collection_icon">♡</div>
+            <div class="new_collection_icon">👁</div>
+            <div class="new_collection_icon">🛒</div>
+          </div>
+        </div>
+        <div class="new_collection_info">
+          <h3>Patek Philippe Nautilus</h3>
+          <p class="new_collection_price">$75.00</p>
+        </div>
+      </div>
+
+
+            <!-- Card 4 -->
+      <div class="new_collection_card">
+        <div class="new_collection_img">
+          <img src="./images/watch5.png" alt="Audemars Piguet Royal">
+          <div class="new_collection_overlay">
+            <div class="new_collection_icon">♡</div>
+            <div class="new_collection_icon">👁</div>
+            <div class="new_collection_icon">🛒</div>
+          </div>
+        </div>
+        <div class="new_collection_info">
+          <h3>Audemars Piguet Royal</h3>
+          <p class="new_collection_price">$89.00</p>
+        </div>
+      </div>
+
+      <!-- Card 1 -->
+      <div class="new_collection_card">
+        <div class="new_collection_img">
+          <img src="./images/watch1.png" alt="Vintage Gold Wristwatch">
+          <div class="new_collection_overlay">
+            <div class="new_collection_icon">♡</div>
+            <div class="new_collection_icon">👁</div>
+            <div class="new_collection_icon">🛒</div>
+          </div>
+          <span class="new_collection_badge">-10%</span>
+        </div>
+        <div class="new_collection_info">
+          <h3>Vintage Gold Wristwatch</h3>
+          <p class="new_collection_price"><del>$220.00</del> $199.00</p>
+        </div>
+      </div>
+
+
+            <!-- Card 4 -->
+      <div class="new_collection_card">
+        <div class="new_collection_img">
+          <img src="./images/watch5.png" alt="Audemars Piguet Royal">
+          <div class="new_collection_overlay">
+            <div class="new_collection_icon">♡</div>
+            <div class="new_collection_icon">👁</div>
+            <div class="new_collection_icon">🛒</div>
+          </div>
+        </div>
+        <div class="new_collection_info">
+          <h3>Audemars Piguet Royal</h3>
+          <p class="new_collection_price">$89.00</p>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="new_collection_card">
+        <div class="new_collection_img">
+          <img src="./images/watch2.png" alt="Heritage Automatic Watch">
+          <div class="new_collection_overlay">
+            <div class="new_collection_icon">♡</div>
+            <div class="new_collection_icon">👁</div>
+            <div class="new_collection_icon">🛒</div>
+          </div>
+        </div>
+        <div class="new_collection_info">
+          <h3>Heritage Automatic Watch</h3>
+          <p class="new_collection_price">$86.00</p>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="new_collection_card">
+        <div class="new_collection_img">
+          <img src="./images/watch3.png" alt="Patek Philippe Nautilus">
+          <div class="new_collection_overlay">
+            <div class="new_collection_icon">♡</div>
+            <div class="new_collection_icon">👁</div>
+            <div class="new_collection_icon">🛒</div>
+          </div>
+        </div>
+        <div class="new_collection_info">
+          <h3>Patek Philippe Nautilus</h3>
+          <p class="new_collection_price">$75.00</p>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="new_collection_card">
+        <div class="new_collection_img">
+          <img src="./images/watch5.png" alt="Audemars Piguet Royal">
+          <div class="new_collection_overlay">
+            <div class="new_collection_icon">♡</div>
+            <div class="new_collection_icon">👁</div>
+            <div class="new_collection_icon">🛒</div>
+          </div>
+        </div>
+        <div class="new_collection_info">
+          <h3>Audemars Piguet Royal</h3>
+          <p class="new_collection_price">$89.00</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+
+
+   <section class="hm_img_section">
+    <!-- Left Watch -->
+    <div class="hm_img_item">
+      <img src="./images/sb.jpg" alt="Classical Watch">
+      <!-- <div class="hm_img_content">
+        <h3>CLASSIC FUSION ESSENTIAL</h3>
+        <h2>CLASSICAL WATCH</h2>
+        <a href="#" class="btn">Shop Now</a>
+      </div> -->
+    </div>
+
+    <!-- Right Watch -->
+    <div class="hm_img_item">
+      <img src="./images/s.jpg" alt="Imperial Watch">
+      <!-- <div class="hm_img_content">
+        <h3>PURPOSEFUL POWER</h3>
+        <h2>THE NEW IMPERIAL</h2>
+        <a href="#" class="btn">Shop Now</a>
+      </div> -->
+    </div>
+
+    <!-- Full Width Watch -->
+    <div class="hm_img_item">
+      <img src="./images/h7-bn3.jpg" alt="Style and Serenity">
+      <!-- <div class="hm_img_content">
+        <h2>STYLE AND SERENITY</h2>
+        <p>Through this limited-edition of Diver Atoll, Ulysse Nardin charts a brand-new course to sun-drenched, undiscovered climes, enriching the Diver 39mm with an astonishing stone-cut dial of chrysocolla.</p>
+      </div> -->
+    </div>
+  </section>
+
+
+
+<section class="news_prep_section">
+  <div class="news_prep_container">
+    <h2 class="news_prep_title">News and Perspectives</h2>
+
+    <div class="news_prep_grid">
+      <div class="news_prep_left">
+        <img src="./images/w-blog2.jpg" alt="News Main">
+        <div class="news_prep_content">
+          <span class="news_prep_tag">Watches</span>
+          <h3>The Best Watches for Every Occasion</h3>
+          <p class="news_prep_date">August 8, 2024</p>
+          <p class="news_prep_text">Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+        </div>
+      </div>
+
+      <div class="news_prep_right">
+        <div class="news_prep_card">
+          <img src="./images/blog-13-1.jpg" alt="Small News 1">
+          <div class="news_prep_card_content">
+            <span class="news_prep_tag">News, Watches</span>
+            <h4>Eye on Style: Glasses and Fashion</h4>
+            <p class="news_prep_date">July 31, 2023</p>
+            <p class="news_prep_text">Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+          </div>
+        </div>
+
+        <div class="news_prep_card">
+          <img src="./images/w-blog1.jpg" alt="Small News 2">
+          <div class="news_prep_card_content">
+            <span class="news_prep_tag">Watches</span>
+            <h4>Top Luxury Watch Brands You Should Know</h4>
+            <p class="news_prep_date">August 8, 2024</p>
+            <p class="news_prep_text">Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- -------------------- -->
+
+
+  <section class="logo_img_section">
+    <div class="logo_img_container">
+      <div class="logo_img_item">
+        <img src="./images/brand1.png" alt="Angle Logo">
+      </div>
+      <div class="logo_img_item">
+        <img src="./images/brand2.png" alt="Visko Logo">
+      </div>
+      <div class="logo_img_item">
+        <img src="./images/brand3.png" alt="Nextar Logo">
+      </div>
+      <div class="logo_img_item">
+        <img src="./images/brand4.png" alt="Mosvolk Logo">
+      </div>
+      <div class="logo_img_item">
+        <img src="./images/brand3.png" alt="Nextar Logo">
+      </div>
+      <div class="logo_img_item">
+        <img src="./images/brand2.png" alt="Visko Logo">
+      </div>
+      <div class="logo_img_item">
+        <img src="./images/brand4.png" alt="Mosvolk Logo">
+      </div>
+      <div class="logo_img_item">
+        <img src="./images/brand2.png" alt="Visko Logo">
+      </div>
+      <div class="logo_img_item">
+        <img src="./images/brand3.png" alt="Nextar Logo">
+      </div>
+      <div class="logo_img_item">
+        <img src="./images/brand4.png" alt="Mosvolk Logo">
+      </div>
+      <div class="logo_img_item">
+        <img src="./images/brand2.png" alt="Visko Logo">
+      </div>
+      <div class="logo_img_item">
+        <img src="./images/brand3.png" alt="Nextar Logo">
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- ----------------------- -->
+
+
+   <section class="testimonial_section">
+    <div class="testimonial_container">
+
+      <!-- Card 1 -->
+      <div class="testimonial_card">
+        <div class="testimonial_content">
+          <div class="testimonial_stars">★★★★★</div>
+          <p class="testimonial_text">
+            I’ve been a customer at Zenny for over five years, and they never disappoint! 
+            The selection of frames is fantastic, catering to all styles and preferences. 
+            The staff is always friendly and knowledgeable, helping me choose the perfect 
+            pair of glasses every time.
+          </p>
+        </div>
+        <div class="testimonial_footer">
+          <img src="./images/h3-client1.jpg" alt="Kristin Watson">
+          <div class="testimonial_user">
+            <h4>Kristin Watson</h4>
+            <p>Teacher</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="testimonial_card">
+        <div class="testimonial_content">
+          <div class="testimonial_stars">★★★★★</div>
+          <p class="testimonial_text">
+            I had an excellent experience with Zenny. The in-store eye exam was thorough, 
+            and the optometrist provided helpful recommendations. My glasses were ready faster 
+            than expected, and the quality is top-notch. I’ll definitely be back!
+          </p>
+        </div>
+        <div class="testimonial_footer">
+          <img src="./images/h3-client3.jpg" alt="David R.">
+          <div class="testimonial_user">
+            <h4>David R.</h4>
+            <p>Civil Engineer</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="testimonial_card">
+        <div class="testimonial_content">
+          <div class="testimonial_stars">★★★★★</div>
+          <p class="testimonial_text">
+            As someone who prefers online shopping, Zenny made the process seamless and enjoyable. 
+            Their virtual try-on tool helped me find the perfect frames from home. 
+            The ordering process was smooth, and the glasses arrived promptly and well-packaged.
+          </p>
+        </div>
+        <div class="testimonial_footer">
+          <img src="./images/h3-client1.jpg" alt="Mary Jane">
+          <div class="testimonial_user">
+            <h4>Mary Jane</h4>
+            <p>Marketing Manager</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+
+  <!-- ----------------------------- -->
+
+
+  <?php include 'footer.php' ?>
+
+
+
+</body>
+</html>
